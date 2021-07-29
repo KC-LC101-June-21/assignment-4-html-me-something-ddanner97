@@ -9,6 +9,7 @@ body {
   font-weight: 1.3rem;
   line-height: 1.6;
   background: #fafafa;
+  margin: 8px;
 }
 
 a {
@@ -24,7 +25,7 @@ a {
   padding: 0 2rem;
 }
 
-.header {
+#header {
   height: 45vh;
   display: flex;
   flex-direction: column;
@@ -34,22 +35,22 @@ a {
   padding: 2rem;
 }
 
-.header h1 {
+#header h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
   line-height: 1.2;
 }
 
-.header h1 span {
+#header h1 span {
   color: #5680e2;
   text-decoration: underline;
 }
 
-.header h1 span:hover {
+#header h1 span:hover {
   color: #646464;
 }
 
-.header p {
+#header p {
   font-size: 2rem;
 }
 
